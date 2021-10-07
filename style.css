@@ -37,7 +37,7 @@ a:hover {
   text-decoration: underline;
 }
  
-h1,h2,h3,h4,h5,h6,p{
+h2,h3,h4,h5,h6,p{
   color: #020202 !important;
 } 
 
@@ -45,6 +45,9 @@ h1,h2,h3,h4,h5,h6,p{
 
 /********** Template CSS ************/
 
+.cus-header{
+  background-color: black;
+}
 
 .text-stroke-header {
   -webkit-text-stroke: 3px #ffffff;
@@ -74,7 +77,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ================ Navigation Menu ====================*/
 
-
+.iconTextColor,
+.textColorCrimson{
+  color: crimson;
+}
 .navbar-light {
   display: none;
 }
@@ -88,7 +94,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: crimson;
 }
 
 @media (max-width: 991.98px) {
@@ -122,18 +128,22 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .blue{
-  background-color: #1c5ce6;
+  background-color: crimson;
   color: #ffffff;
 }
 .btn{
-  border: 2px solid rgb(29, 105, 247);
+  border: 2px solid crimson;
 } 
+.btn:hover{
+  background-color: crimson;
+  color: white;
+}
 .btn-white{
   background-color: #ffffff;
   border:2px solid #ffffff;
 }
 .btn-blue{
-  border: 2.4px solid #ffffff;
+  border: 2.4px solid crimson;
   color: #ffffff;
 }
 @media (max-width: 700px) {
@@ -159,6 +169,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* =================== Queality ======================*/
 .ex-me{
   margin-top: 35px;
+  
 }
 
 
@@ -174,10 +185,11 @@ h1,h2,h3,h4,h5,h6,p{
   align-items: center;
   justify-content: center;
   border-radius: 60px;
+  background-color: crimson;
 }
 
 .service-box{
-  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);  
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);  
   margin-left: 20px;
   padding: 15px;
   padding-left: 30px;
@@ -185,6 +197,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .service-box:hover{
   box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
+ 
  
 }
 /* =================== Portfolio section ==================*/
@@ -207,6 +220,7 @@ h1,h2,h3,h4,h5,h6,p{
   height: calc(100% - 60px);
   top: 30px;
   left: 30px;
+  background-color: crimson;
 }
 
 /* ====================== Testimonial ================*/
@@ -250,7 +264,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 /*====================== Back to buttom ==================*/
-
+.footer-bg{
+  background-color: crimson;
+  
+}
 .scroll-to-bottom {
   position: fixed;
   width: 20px;
